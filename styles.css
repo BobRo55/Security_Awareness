@@ -48,7 +48,7 @@ body, html {
   display: block;
   width: 0;
   height: 2px;
-  background: #464749; /* Abbey */
+  background: #ffffff; /* Abbey */
   transition: width 0.3s;
 }
 
