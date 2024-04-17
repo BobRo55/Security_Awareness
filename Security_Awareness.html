@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Awareness Course</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        button {
+        text-align: center;
+        width: 300px;
+        display: inline-block;
+        padding: 20px 30px;
+        margin: 10px;
+        color: white; /* Abbey */
+        background-color: #01a9e2; /* Candlelight */
+        text-decoration: none;
+        border-radius: 0.4rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        border: 2px solid #777777; /* Apple */
+        transition: all 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #44A736; /* Apple */
+      color: #fff;
+      border-color: #6D6F72; /* Pale Sky */
+      cursor: pointer;
+    }
+
+    /* Hover animation styles */
+    button::after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 2px;
+      background: #464749; /* Abbey */
+      transition: width 0.3s;
+    }
+
+    button:hover::after {
+      width: 100%;
+    }
+
+    a{
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .button{
+      display: flex;
+      justify-content: center;
+      padding-top: 3rem;
+    }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Subjects</th>
+            <th>Threats</th>
+        </tr>
+        <tr>
+            <td>Physical Threats</td>
+            <td>
+                - Unauthorized access or break-ins<br>
+                - Theft of corporate assets<br>
+                - Vandalism and sabotage<br>
+                - Natural disasters affecting physical infrastructure
+            </td>
+        </tr>
+        <tr>
+            <td>Digital Threats</td>
+            <td>
+                - Phishing and spear-phishing attacks<br>
+                - Malware, ransomware, and spyware<br>
+                - Data breaches and data leakage<br>
+                - Network intrusions and Denial of Service (DoS) attacks<br>
+                - Social engineering and identity theft
+            </td>
+        </tr>
+        <tr>
+            <td>Process for Disaster Recovery (Handling Security Incidents)</td>
+            <td>
+                - Identification and classification of security incidents<br>
+                - Incident response and containment<br>
+                - Data recovery and system restoration<br>
+                - Post-incident analysis and preventive measures
+            </td>
+        </tr>
+    </table>
+
+    <div class="button"><a href="index.html"><button>Back</button></a></div>
+</body>
+</html>
